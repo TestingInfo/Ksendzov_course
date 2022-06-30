@@ -1,0 +1,23 @@
+1) pwd
+2) mkdir test
+3) cd test
+4) mkdir dir1 dir2 dir3
+5) cd dir1
+6) touch text1.txt text2.txt text3.txt test1.json test2.json
+7) mkdir test1 test2 test3
+8) ls
+9) vim text1.txt 
+10) hello!!! 
+11) esc :wq 
+12) cd ..
+13) mv dir1/text1.txt dir2/text1.txt
+	Новая команда mv dir1/text2.txt dir2/text2.txt
+14) cp dir1/text1.txt dir2/text1.txt
+	Новая команда mv dir1/text2.txt dir2/text2.txt
+15) find dir1/ -name "*.txt"
+16) grep hello dir1/text1.txt
+17) head -n 3 text1.txt
+18) tail -n 2 text1.txt
+19) less testlessfile (был подготовлен тестовый файл большого объема (ls -la >> testlessfile))
+20) date
+
